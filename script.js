@@ -29,3 +29,13 @@ function elemekElerese4() {
     szoveg += "</ul>"
     ELEM4.innerHTML = szoveg;
 }
+
+/* JQuerry-vel írt változat */
+
+/* Írj JavaScript kódot, amely az előző sectionban lévő "lista" azonosítóval ellátott elemre ráteszi a css-ben már elkészített
+"formazott" nevű stílust! */
+function elemekFormazasa1() {
+    const ELEM = $(".lista");
+    console.log(ELEM)
+    ELEM.addClass("formazott")
+}
